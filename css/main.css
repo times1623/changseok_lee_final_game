@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden {
+	display: none;
+}
+
+img {
+	width: 120px;
+}
+
+section {
+	background: url(../images/game_bckgrd.png);
+	width: 1080px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#bug img {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 80px;
+}
+
+#starShip img {
+	position: absolute;
+	margin-top: 370px;
+	margin-left: 80px;
+}
+
+#buttonSec {
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 400px;
+	display: inline;
+}
+
+button {
+	border-style: none;
+	background-color: white;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	transition: ease-in-out .5;
+}
